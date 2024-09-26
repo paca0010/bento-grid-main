@@ -1,0 +1,112 @@
+/*Feel free to remove these styles or customise in your own stylesheet 👍*/
+
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    background-color: rgb(227, 222, 222);
+}
+
+
+/******MObile Styles******/
+@media screen and (max-width: 991px) {
+
+    .card {
+        padding: 20px;
+        border-radius: 12px;
+        max-width: 600px;
+        /* Larger card width for bigger screens */
+        width: 100%;
+    }
+
+    .socai .card {
+        background-color: hsl(256, 67%, 59%);
+    }
+
+    .fivestar {
+        max-width: 50%;
+        display: block;
+        margin: 0 auto;
+        height: auto;
+    }
+
+    .socai h1 {
+        text-align: center;
+        font-size: 2.5em;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    .socai p {
+        text-align: center;
+    }
+
+    .socai i {
+        font-style: italic;
+    }
+
+    .highlight {
+        color: hsl(39, 100%, 71%);
+    }
+
+    /*******/
+
+    .accplat h2 {
+        font-size: 1.5rem;
+    }
+
+     /*******/
+
+    .postsched h2 {
+        font-size: 1.5rem;
+    }
+
+    .postsched .card {
+        background-color: hsl(39, 100%, 71%);
+    }
+
+    .postsched h2 {
+        margin-right: 2em;
+    }
+
+    .postsched img {
+        margin-right: 4em;
+        width: 65%;
+    }
+
+    .postsched .card {
+        padding-bottom: 0%;
+    }
+
+    /*******/
+
+    .schedmed .card {
+        background-color: hsl(254, 88%, 90%);
+    }
+
+    .schedmed h3, p {
+        text-align: center;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
