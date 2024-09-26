@@ -3,7 +3,7 @@
 
 body {
     font-family: 'DM Sans', sans-serif;
-    background-color: rgb(227, 222, 222);
+    background-color: rgb(244, 242, 242);
 }
 
 
@@ -87,7 +87,83 @@ body {
         text-align: center;
     }
 
+    .schedmed h2 {
+        font-size: 1.5rem;
+    }
 
+    .schedmed p {
+        font-size: 19px;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    /*******/
+
+    .nonstop .card {
+        background-color: hsl(256, 67%, 59%);
+    }
+
+    .nonstop h2 {
+        text-align: center;
+        font-size: 2em;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .nonstop img {
+        width: 70%;
+        margin-left: 3em;
+    }
+
+    /*********/
+
+    .fastaud h1 {
+        font-size: 4em;
+    }
+
+    .fastaud p {
+       text-align: left;
+       font-size: 21px;
+    }
+
+    .fastaud img {
+        margin-right: 4em;
+        width: 65%;
+    }
+
+    /*********/
+
+    .conquick .card {
+        background-color: hsl(31, 66%, 93%);
+    }
+
+    .conquick h2 {
+        font-size: 2em;
+    }
+
+    .conquick img {
+        margin-right: 8em;
+    }
+
+    .conquick i {
+        font-style: italic;
+        color: hsl(256, 67%, 59%);
+    }
+
+    /*********/
+
+    .writai h2 {
+        font-size: 2em;
+        margin-bottom: 1em;
+    }
+
+    .writai .card {
+        background-color: hsl(39, 100%, 71%);
+    }
+
+    .writai img {
+        margin-right: 6em;
+    }
 
 }
 
