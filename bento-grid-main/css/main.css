@@ -54,7 +54,7 @@ body {
         font-size: 1.5rem;
     }
 
-     /*******/
+    /*******/
 
     .postsched h2 {
         font-size: 1.5rem;
@@ -83,7 +83,8 @@ body {
         background-color: hsl(254, 88%, 90%);
     }
 
-    .schedmed h2, p {
+    .schedmed h2,
+    p {
         text-align: center;
     }
 
@@ -122,8 +123,8 @@ body {
     }
 
     .fastaud p {
-       text-align: left;
-       font-size: 21px;
+        text-align: left;
+        font-size: 21px;
     }
 
     .fastaud img {
@@ -167,9 +168,11 @@ body {
 
 }
 
+@media screen and (min-width:991) {
+    
 
 
-
+}
 
 
 
