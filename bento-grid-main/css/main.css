@@ -18,6 +18,15 @@ body {
         width: 100%;
     }
 
+    /* PAdding bottom of every div card */
+    .accplat, .postsched, .schedmed, .nonstop, .fastaud, .conquick, .writai {
+        padding-bottom: 1rem; 
+    }
+    
+    .socai {
+        padding-bottom: 1rem;
+        padding-top: 2rem;
+    }
     .socai .card {
         background-color: hsl(256, 67%, 59%);
     }
@@ -29,7 +38,8 @@ body {
         height: auto;
     }
 
-    .socai h1 {
+    .socai h1 { /*"text-white pb-4 pt-4" */
+        color: white;
         text-align: center;
         font-size: 2.5em;
         margin-left: 1em;
@@ -38,9 +48,15 @@ body {
 
     .socai p {
         text-align: center;
+        color: white;
+        padding-bottom: 1rem;
     }
 
-    .socai i {
+    .fivestar {
+        padding-top: 1rem;
+    }
+
+    .faster {
         font-style: italic;
     }
 
@@ -52,6 +68,14 @@ body {
 
     .accplat h2 {
         font-size: 1.5rem;
+    }
+
+    .Socmed {
+        width: 100%;
+    }
+
+    .accplat .card {
+        background-color: white;
     }
 
     /*******/
@@ -66,11 +90,12 @@ body {
 
     .postsched h2 {
         margin-right: 2em;
+        padding-bottom: 1rem;
     }
 
-    .postsched img {
-        margin-right: 4em;
-        width: 65%;
+    .consched {
+        width: 70%;
+        padding-right: 5rem;
     }
 
     .postsched .card {
@@ -98,6 +123,10 @@ body {
         margin-right: 1em;
     }
 
+    .Schedsoc {
+        width: 100%;
+    }
+
     /*******/
 
     .nonstop .card {
@@ -111,9 +140,9 @@ body {
         margin-right: 2rem;
     }
 
-    .nonstop img {
-        width: 70%;
-        margin-left: 3em;
+    .Growfoll {
+        width: 100%;
+
     }
 
     /*********/
@@ -127,9 +156,8 @@ body {
         font-size: 21px;
     }
 
-    .fastaud img {
-        margin-right: 4em;
-        width: 65%;
+    .audience {
+        width: 100%;
     }
 
     /*********/
@@ -142,8 +170,8 @@ body {
         font-size: 2em;
     }
 
-    .conquick img {
-        margin-right: 8em;
+    .crtpst {
+        width: 100%;
     }
 
     .conquick i {
@@ -162,8 +190,8 @@ body {
         background-color: hsl(39, 100%, 71%);
     }
 
-    .writai img {
-        margin-right: 6em;
+    .ai {
+        width: 100%;
     }
 
 }
